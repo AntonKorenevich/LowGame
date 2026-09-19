@@ -2,13 +2,13 @@
 
 find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System)
 
-add_executable(CppGameTemplate
+add_executable(LowGame
     main.cpp
 )
 
-target_compile_features(CppGameTemplate PRIVATE cxx_std_20)
+target_compile_features(LowGame PRIVATE cxx_std_20)
 
-target_link_libraries(CppGameTemplate PRIVATE
+target_link_libraries(LowGame PRIVATE
     SFML::Graphics
     SFML::Window
     SFML::System

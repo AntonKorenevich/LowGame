@@ -5,7 +5,7 @@ int main()
 {
     sf::RenderWindow window(
         sf::VideoMode({ 800, 600 }),
-        "CppGameTemplate"
+        "LowGame"
     );
 
     while (window.isOpen())
