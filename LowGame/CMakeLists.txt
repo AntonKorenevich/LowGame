@@ -4,6 +4,8 @@ find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System)
 
 add_executable(LowGame
     main.cpp
+    Game/Game.h
+    Game/Game.cpp
 )
 
 target_compile_features(LowGame PRIVATE cxx_std_20)
